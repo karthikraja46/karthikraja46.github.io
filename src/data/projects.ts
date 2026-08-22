@@ -33,7 +33,7 @@ export const projects: Project[] = [
       "Flaky-test triage that cut false-positive failures by 40%",
     ],
     stack: ["Playwright", "TypeScript", "Page Object Model", "GitHub Actions", "Docker"],
-    github: "https://github.com/karthikraja46",
+    github: "https://github.com/karthikraja46/automation-framework",
   },
   {
     id: "rest-api-suite",
@@ -53,6 +53,6 @@ export const projects: Project[] = [
       "Contributed to a 25% reduction in release regression issues",
     ],
     stack: ["Pytest", "Postman", "JSON Schema", "GitHub Actions"],
-    github: "https://github.com/karthikraja46",
+    github: "https://github.com/karthikraja46/api_validator",
   },
 ];
