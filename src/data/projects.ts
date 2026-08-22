@@ -16,21 +16,23 @@ export const projects: Project[] = [
   {
     id: "playwright-framework",
     title: "Playwright + TypeScript Automation Framework",
-    tag: "UI & regression automation",
+    tag: "Advanced framework architecture",
     status: "prod",
     description:
-      "A Page Object Model based UI automation framework built for end-to-end, regression, and cross-browser coverage of critical user journeys, wired into GitHub Actions for continuous execution.",
+      "An advanced Playwright + TypeScript automation framework built for end-to-end, regression, and cross-browser coverage, with designed CI/CD pipelines and containerized test environments.",
     problem:
       "Manual regression cycles were slow and inconsistent across browsers, and release validation depended heavily on repeated human execution of the same journeys.",
     solution:
-      "Built and maintained a Playwright (TypeScript) suite using the Page Object Model, with reusable test utilities and fixtures, integrated directly into CI/CD so regression runs on every change instead of before every release.",
+      "Architected a Playwright + TypeScript suite using the Page Object Model, reusable fixtures, and shared utilities. Designed CI/CD pipelines and containerized test environments so consistent regression runs execute on every change instead of before every release.",
     features: [
       "Page Object Model with reusable, composable page components",
+      "Advanced framework architecture with shared fixtures and utilities",
       "Cross-browser end-to-end and regression coverage",
-      "GitHub Actions integration with parallel test execution",
+      "CI/CD pipeline design with parallel test execution",
+      "Containerized test environments for consistent local and CI runs",
       "Flaky-test triage that cut false-positive failures by 40%",
     ],
-    stack: ["Playwright", "TypeScript", "Page Object Model", "GitHub Actions"],
+    stack: ["Playwright", "TypeScript", "Page Object Model", "GitHub Actions", "Docker"],
     github: "https://github.com/karthikraja46",
   },
   {
