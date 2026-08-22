@@ -46,13 +46,13 @@ export function Learning() {
               <p className="mt-1 text-sm text-[var(--color-text-muted)]">Manual testing, STLC/SDLC, Python and SQL fundamentals.</p>
             </div>
             <div>
-              <p className="font-mono text-xs text-[var(--color-amber)]">● actively deepening</p>
+              <p className="font-mono text-xs text-[var(--color-accent)]">✓ solid ground</p>
               <p className="mt-1 text-sm text-[var(--color-text-muted)]">
                 Playwright + TypeScript, CI/CD pipeline design, and containerized test environments.
               </p>
             </div>
             <div>
-              <p className="font-mono text-xs text-[var(--color-text-faint)]">○ heading toward</p>
+              <p className="font-mono text-xs text-[var(--color-accent)]">✓ solid ground</p>
               <p className="mt-1 text-sm text-[var(--color-text-muted)]">Advanced framework architecture and broader API/automation ownership.</p>
             </div>
           </div>

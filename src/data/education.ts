@@ -9,15 +9,13 @@ export const education = [
   },
 ];
 
-// Roadmap for the "Currently Learning & Building" section.
-// "done" = solid ground already covered on the job; "current" = actively deepening;
-// "next" = the direction the automation practice is headed.
+// Completed capabilities shown in the "Currently Learning & Building" section.
 export const roadmap = [
   { label: "Manual Testing", status: "done" as const },
   { label: "STLC / SDLC", status: "done" as const },
   { label: "Python + SQL", status: "done" as const },
-  { label: "Playwright + TypeScript", status: "current" as const },
-  { label: "CI/CD Pipeline Design", status: "current" as const },
-  { label: "Containerized Test Environments", status: "current" as const },
-  { label: "Advanced Framework Architecture", status: "next" as const },
+  { label: "Playwright + TypeScript", status: "done" as const },
+  { label: "CI/CD Pipeline Design", status: "done" as const },
+  { label: "Containerized Test Environments", status: "done" as const },
+  { label: "Advanced Framework Architecture", status: "done" as const },
 ];
