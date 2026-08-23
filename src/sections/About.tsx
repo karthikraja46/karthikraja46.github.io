@@ -1,6 +1,8 @@
 import { SectionHeading } from "../components/SectionHeading";
 import { profile } from "../data/profile";
 
+const HIGHLIGHTED_KEYWORDS = new Set(["Playwright", "TypeScript", "Python", "Docker", "Kubernetes"]);
+
 const TRAITS = [
   { k: "manual → automation", v: "Grounded in manual QA fundamentals, now building automated coverage on top of that base." },
   { k: "playwright + typescript", v: "Writing and maintaining Playwright suites in TypeScript for UI and cross-browser regression." },
@@ -9,10 +11,27 @@ const TRAITS = [
 ];
 
 export function About() {
+  const summaryParts = profile.summary.split(/(Playwright|TypeScript|Python|Docker|Kubernetes)/g);
+
   return (
     <section id="about" className="px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="whoami" title="About Me" description={profile.summary} />
+        <SectionHeading
+          eyebrow="whoami"
+          title="About Me"
+          description={summaryParts.map((part, index) =>
+            HIGHLIGHTED_KEYWORDS.has(part) ? (
+              <span
+                key={`${part}-${index}`}
+                className="mx-0.5 inline-flex rounded border border-[var(--color-accent)]/40 bg-[var(--color-accent-soft)] px-1.5 py-0.5 font-mono text-[0.8em] text-[var(--color-accent)]"
+              >
+                {part}
+              </span>
+            ) : (
+              part
+            ),
+          )}
+        />
 
         <div className="grid gap-4 sm:grid-cols-2">
           {TRAITS.map((trait) => (
