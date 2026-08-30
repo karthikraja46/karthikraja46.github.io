@@ -27,7 +27,7 @@ export const experience: Experience[] = [
     stack: ["Playwright", "TypeScript", "JavaScript", "GitHub Actions", "Docker", "Kubernetes", "Python", "SQL", "Linux"],
   },
   {
-    title: "SDET / QA Automation Intern",
+    title: "SDET / QA Automation Engineer",
     company: "Bluecopa",
     location: "Bengaluru, Karnataka",
     start: "Sep 2025",
