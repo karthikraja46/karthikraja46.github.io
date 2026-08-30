@@ -1,6 +1,7 @@
 export type Experience = {
   title: string;
   company: string;
+  companyUrl?: string;
   location: string;
   start: string;
   end: string;
@@ -13,6 +14,7 @@ export const experience: Experience[] = [
   {
     title: "Software Development Engineer in Test (SDET)",
     company: "IMTF",
+    companyUrl: "https://imtf.com/",
     location: "Bengaluru, Karnataka",
     start: "Jun 2026",
     end: "Present",
@@ -29,6 +31,7 @@ export const experience: Experience[] = [
   {
     title: "SDET / QA Automation Engineer",
     company: "Bluecopa",
+    companyUrl: "https://www.bluecopa.com/",
     location: "Bengaluru, Karnataka",
     start: "Sep 2025",
     end: "Mar 2026",
@@ -45,6 +48,7 @@ export const experience: Experience[] = [
   {
     title: "Backend & Data Science Intern",
     company: "Tooliqa Innovations LLP",
+    companyUrl: "https://www.tooli.qa/",
     location: "Gurugram, Haryana",
     start: "Feb 2025",
     end: "Aug 2025",

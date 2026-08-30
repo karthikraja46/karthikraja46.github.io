@@ -32,7 +32,18 @@ export function Experience() {
                   <div className="flex flex-wrap items-start justify-between gap-3">
                     <div>
                       <h3 className="font-mono text-lg font-semibold text-[var(--color-text)]">{job.title}</h3>
-                      <p className="mt-1 text-sm text-[var(--color-accent)]">{job.company}</p>
+                      {job.companyUrl ? (
+                        <a
+                          href={job.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-1 inline-block text-sm text-[var(--color-accent)] transition-colors hover:text-[var(--color-accent-bright)]"
+                        >
+                          {job.company} ↗
+                        </a>
+                      ) : (
+                        <p className="mt-1 text-sm text-[var(--color-accent)]">{job.company}</p>
+                      )}
                     </div>
                     <div className="text-right font-mono text-xs text-[var(--color-text-faint)]">
                       <p>
