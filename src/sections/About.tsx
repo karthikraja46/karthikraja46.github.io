@@ -17,8 +17,8 @@ export function About() {
     <section id="about" className="px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="whoami"
-          title="About Me"
+          number="02"
+          title="A Little About Me"
           description={summaryParts.map((part, index) =>
             HIGHLIGHTED_KEYWORDS.has(part) ? (
               <span

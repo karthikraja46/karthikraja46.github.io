@@ -4,10 +4,10 @@ import { profile } from "../data/profile";
 
 const LINKS = [
   { href: "#about", label: "about" },
-  { href: "#skills", label: "skills" },
+  { href: "#skills", label: "expertise" },
   { href: "#experience", label: "experience" },
-  { href: "#projects", label: "projects" },
-  { href: "#learning", label: "learning" },
+  { href: "#projects", label: "work" },
+  { href: "#education", label: "education" },
   { href: "#contact", label: "contact" },
 ];
 

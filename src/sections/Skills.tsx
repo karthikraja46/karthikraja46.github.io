@@ -7,17 +7,28 @@ export function Skills() {
     <section id="skills" className="border-t border-[var(--color-border-soft)] px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="skills.json"
-          title="Skills"
-          description="Grouped the way they show up in day-to-day work — from writing manual test cases to shipping automation inside CI/CD."
+          number="03"
+          title="Expertise"
+          description="Automation from different perspectives — from E2E and API testing to CI/CD integration and infrastructure."
         />
 
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {skillGroups.map((group) => (
-            <div key={group.id} className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5">
-              <h3 className="font-mono text-sm font-semibold text-[var(--color-text)]">{group.label}</h3>
-              <p className="mt-1 font-mono text-xs text-[var(--color-text-faint)]">{group.comment}</p>
-              <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-16 grid gap-12 sm:grid-cols-2">
+          {skillGroups.map((group, index) => (
+            <div key={group.id} className="group">
+              <div className="mb-3 flex items-start gap-3">
+                <span className="text-2xl font-bold text-[var(--color-accent)]">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <div>
+                  <h3 className="text-lg font-semibold text-[var(--color-text)]">
+                    {group.label}
+                  </h3>
+                  <p className="mt-1 font-mono text-xs text-[var(--color-text-faint)]">
+                    {group.comment}
+                  </p>
+                </div>
+              </div>
+              <div className="ml-12 mt-4 flex flex-wrap gap-2">
                 {group.items.map((item) => (
                   <SkillBadge key={item} label={item} />
                 ))}

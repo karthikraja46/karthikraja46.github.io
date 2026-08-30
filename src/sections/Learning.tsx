@@ -14,9 +14,9 @@ export function Learning() {
     <section id="learning" className="border-t border-[var(--color-border-soft)] px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="in-progress"
-          title="Currently Learning & Building"
-          description="The path from manual QA into automation engineering, tracked the way I'd track a pipeline: what's done, what's running, what's next."
+          number="08"
+          title="Learning & Growing"
+          description="Building expertise in automation, from Playwright and TypeScript to AI-assisted test automation and infrastructure fundamentals."
         />
 
         <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-6 sm:p-8">

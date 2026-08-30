@@ -6,7 +6,7 @@ export function EducationSection() {
   return (
     <section id="education" className="border-t border-[var(--color-border-soft)] px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="education" title="Education" />
+        <SectionHeading number="09" title="Education" />
 
         <div className="space-y-4">
           {education.map((edu) => (

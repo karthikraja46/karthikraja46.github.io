@@ -8,9 +8,9 @@ export function Experience() {
     <section id="experience" className="border-t border-[var(--color-border-soft)] px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="git log --experience"
+          number="05"
           title="Experience"
-          description="Each role picked up more of the pipeline — from writing test cases, to owning automation, to running the CI/CD that ships it."
+          description="Each role built deeper expertise — from writing test cases, to owning automation, to building CI/CD infrastructure."
         />
 
         <div className="relative">

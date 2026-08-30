@@ -1,7 +1,9 @@
 export const profile = {
   name: "Karthik Raja Nichenametla",
   role: "SDET · Test Automation Engineer",
-  headline: "Software Test Engineer | Manual Testing | Automation Testing | Playwright | TypeScript | SQL",
+  headline: "SDET & Test Automation Engineer",
+  tagline: "Test automation is more than writing scripts.",
+  mission: "I build reliable, maintainable test automation frameworks that catch real issues early and integrate seamlessly into CI/CD pipelines. Through hands-on experience with Playwright, TypeScript, and Python, I help teams ship quality software with confidence.",
   location: "Bengaluru, Karnataka, India",
   email: "nkarthikraja46@gmail.com",
   linkedin: "https://www.linkedin.com/in/karthik-raja-nichenametla/",

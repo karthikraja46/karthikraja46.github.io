@@ -21,9 +21,9 @@ export function Contact() {
       <div className="mx-auto max-w-4xl">
         <SectionHeading
           align="center"
-          eyebrow="contact"
-          title="Let's Talk"
-          description="I'm always interested in discussing software testing, test automation, technology, and new opportunities. Feel free to connect."
+          number="11"
+          title="Let's Connect"
+          description="I'm always interested in discussing test automation, CI/CD integration, quality engineering, and new opportunities."
         />
 
         <div className="grid gap-8 lg:grid-cols-[1fr_1.3fr]">

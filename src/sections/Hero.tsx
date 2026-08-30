@@ -7,23 +7,23 @@ import { profile } from "../data/profile";
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden px-5 pb-20 pt-32 sm:px-8 sm:pt-40">
-      <div className="mx-auto grid max-w-6xl items-center gap-14 lg:grid-cols-[1.05fr_1fr]">
-        <div className="animate-rise">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-raised)] px-3 py-1 font-mono text-xs text-[var(--color-accent)]">
+      <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-2">
+        <div className="animate-rise flex flex-col justify-center">
+          <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-[var(--color-border)] bg-[var(--color-bg-raised)] px-3 py-1 font-mono text-xs text-[var(--color-accent)]">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[var(--color-accent)]" />
-            open to opportunities
+            SDET • Test Automation Engineer
           </div>
 
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-[var(--color-text)] sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>
 
-          <p className="mt-5 font-mono text-sm leading-relaxed text-[var(--color-accent)] sm:text-base">
-            {profile.headline}
-          </p>
+          <h2 className="mt-4 text-2xl font-semibold leading-snug text-[var(--color-text-muted)] sm:text-3xl">
+            {profile.tagline}
+          </h2>
 
-          <p className="mt-6 max-w-xl font-sans text-base leading-relaxed text-[var(--color-text-muted)] sm:text-lg">
-            {profile.intro}
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-[var(--color-text-muted)] sm:text-lg">
+            {profile.mission}
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

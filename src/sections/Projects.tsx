@@ -7,9 +7,9 @@ export function Projects() {
     <section id="projects" className="border-t border-[var(--color-border-soft)] px-5 py-24 sm:px-8">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="projects/"
-          title="Projects"
-          description="A mix of professional automation work and independent builds — automation frameworks, API test suites, and a couple of things I built just to learn."
+          number="07"
+          title="Selected Work"
+          description="A few examples of how I approach automation, testing, and CI/CD integration."
         />
 
         <div className="grid gap-5 sm:grid-cols-2">

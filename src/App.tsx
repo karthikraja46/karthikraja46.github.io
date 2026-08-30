@@ -6,8 +6,8 @@ import { Skills } from "./sections/Skills";
 import { Experience } from "./sections/Experience";
 import { Projects } from "./sections/Projects";
 import { Learning } from "./sections/Learning";
-import { GithubSection } from "./sections/GithubSection";
 import { EducationSection } from "./sections/EducationSection";
+import { Approach } from "./sections/Approach";
 import { Contact } from "./sections/Contact";
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
         <Experience />
         <Projects />
         <Learning />
-        <GithubSection />
         <EducationSection />
+        <Approach />
         <Contact />
       </main>
       <Footer />
