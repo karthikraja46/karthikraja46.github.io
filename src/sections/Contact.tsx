@@ -119,7 +119,7 @@ export function Contact() {
               className="flex w-full items-center justify-center gap-2 rounded-md bg-[var(--color-accent)] px-5 py-2.5 font-mono text-sm font-medium text-[#06110c] transition-all hover:bg-[var(--color-accent-dim)]"
             >
               {sent ? <CheckCircle2 className="h-4 w-4" /> : <Send className="h-4 w-4" />}
-              {sent ? "Opening your mail app…" : "Send Message"}
+              {sent ? "Mail app opened" : "Send Message"}
             </button>
             <p className="text-center font-mono text-[11px] text-[var(--color-text-faint)]">
               opens your email client — no data is stored on this site

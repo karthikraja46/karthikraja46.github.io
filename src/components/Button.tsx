@@ -12,7 +12,7 @@ type ButtonProps = {
 
 export function Button({ href, onClick, children, variant = "primary", icon, download, target }: ButtonProps) {
   const base =
-    "group inline-flex items-center gap-2 rounded-md px-5 py-2.5 font-mono text-sm font-medium transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2";
+    "group inline-flex min-h-11 items-center gap-2 rounded-md px-5 py-2.5 font-mono text-sm font-medium transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2";
   const styles =
     variant === "primary"
       ? "bg-[var(--color-accent)] text-[#06110c] hover:bg-[var(--color-accent-dim)] hover:-translate-y-0.5 shadow-[0_0_0_1px_rgba(62,213,152,0.4)] hover:shadow-[0_4px_20px_-4px_rgba(62,213,152,0.5)]"
